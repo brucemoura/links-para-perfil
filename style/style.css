@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --cor-1: hsl(75, 94%, 57%);
+  --cor-2: hsl(0, 0%, 100%);
+  --cor-3: hsl(0, 0%, 20%);
+  --cor-4: hsl(0, 0%, 12%); 
+  --cor-5: hsl(0, 0%, 8%);
+}
+
+@font-face {
+  font-family: inter;
+  src: url(../assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+body{
+  height: 100vh;
+  color: var(--cor-2);
+  background: var(--cor-5);
+  display: flex;
+  font-family: inter;
+  font-size: 14px;
+  justify-content: center;
+  align-items: center;
+}
+
+.content{
+  width: 100%;
+  max-width: 350px;
+  padding: 30px;
+  background: var(--cor-4);
+  border-radius: 7px;
+}
+
+.img{
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background-image: url(../assets/images/@smoljessionlyfans\ telegram\ -\ 8.jpg);
+  background-position: center top;
+  background-size: cover;
+  margin: 20px auto;
+}
+
+h1{
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+h2{
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+h3{
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.links{
+  width: 100%;
+  max-width: 300px;
+  padding: 15px;
+  display: inline-block;
+  margin: 10px auto;
+  background: var(--cor-3);
+  text-align: center;
+  border-radius: 7px;
+  font-weight: bold;
+}
+
+.links:hover{
+  background: var(--cor-1);
+  color: black;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
